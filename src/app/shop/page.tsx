@@ -3,9 +3,9 @@ import { useState, useEffect } from "react";
 import { useRouter } from "next/navigation";
 import { FaStar } from "react-icons/fa";
 import Image from "next/image";
-import Navbar from "@/Components/Navbar"; // Import Navbar component
-import Subfooter from "@/Components/Subfooter"; // Import Subfooter component
-import Footer from "@/Components/Footer"; // Import Footer component
+import Navbar from "@/app/Component/Navbar";
+import Subfooter from "@/app/Component/Subfooter";
+import Footer from "@/app/Component/Footer";
 
 interface Product {
   id: string;

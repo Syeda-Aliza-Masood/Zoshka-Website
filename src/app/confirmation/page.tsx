@@ -1,8 +1,8 @@
 'use client';  // Mark this as a Client Component
 
-import Navbar from "@/Components/Navbar";
-import Subfooter from "@/Components/Subfooter";
-import Footer from "@/Components/Footer";
+import Navbar from "@/app/Component/Navbar";
+import Subfooter from "@/app/Component/Subfooter";
+import Footer from "@/app/Component/Footer";
 
 const Confirmation = () => {
   return (

@@ -1,8 +1,8 @@
 'use client';  // Add this line at the top of the file
 
-import Navbar from "@/Components/Navbar";
-import Subfooter from "@/Components/Subfooter";
-import Footer from "@/Components/Footer";
+import Navbar from "@/app/Component/Navbar";
+import Subfooter from "@/app/Component/Subfooter";
+import Footer from "@/app/Component/Footer";
 
 export default function Contact() {
   // Function to handle form submission and send the message via email

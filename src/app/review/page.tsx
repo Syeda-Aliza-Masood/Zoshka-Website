@@ -1,8 +1,8 @@
 "use client";
 import { useState, useEffect } from "react";
-import Navbar from "@/Components/Navbar";
-import Footer from "@/Components/Footer";
-import Subfooter from "@/Components/Subfooter";
+import Navbar from "@/app/Component/Navbar";
+import Subfooter from "@/app/Component/Subfooter";
+import Footer from "@/app/Component/Footer";
 
 export default function ReviewSection() {
   const [reviews, setReviews] = useState<{ name: string; review: string; rating: number }[]>([]);
