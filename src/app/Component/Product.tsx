@@ -15,7 +15,7 @@ const data: Product[] = [
   {
     name: "Smart Watch",
     price: "Rs. 2800",
-    image: "/watch.JPEG",
+    image: "/watch.jpeg",
     description: "I20 ultra max suit smart watch 10 in 1 in one box 2.3 inches large screen smart watch with earbuds,",
   },
   {
