@@ -1,11 +1,11 @@
-import Category from "@/Components/Category";
-import Counter from "@/Components/Counter"
-import Footer from "@/Components/Footer";
-import Hero from "@/Components/Hero";
-import Navbar from "@/Components/Navbar";
-import Product from "@/Components/Product";
-import Subfooter from "@/Components/Subfooter";
-import Fusion from "@/Components/Fusion";
+import Category from "@/app/Component/Category";
+import Counter from "@/app/Component/Counter";
+import Footer from "@/app/Component/Footer";
+import Hero from "@/app/Component/Hero";
+import Navbar from "@/app/Component/Navbar";
+import Product from "@/app/Component/Product";
+import Subfooter from "@/app/Component/Subfooter";
+import Fusion from "@/app/Component/Fusion";
 
 
 export default function Home() {
