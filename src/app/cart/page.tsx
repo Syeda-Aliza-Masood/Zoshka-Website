@@ -2,9 +2,9 @@
 
 import type { FC } from "react";
 import { useState, useEffect } from "react";
-import Navbar from "@/Components/Navbar";
-import Footer from "@/Components/Footer";
-import Subfooter from "@/Components/Subfooter";
+import Navbar from "@/app/Component/Navbar";
+import Subfooter from "@/app/Component/Subfooter";
+import Footer from "@/app/Component/Footer";
 import { useRouter } from "next/navigation";
 import { Trash2 } from "lucide-react";
 import Image from "next/image";
