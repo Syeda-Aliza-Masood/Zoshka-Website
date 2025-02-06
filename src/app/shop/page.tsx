@@ -2,7 +2,6 @@
 import { useState, useEffect } from "react";
 import { useRouter } from "next/navigation";
 import { FaStar } from "react-icons/fa";
-import Image from "next/image";
 import Navbar from "@/app/Component/Navbar";
 import Subfooter from "@/app/Component/Subfooter";
 import Footer from "@/app/Component/Footer";
@@ -38,10 +37,11 @@ const Home: React.FC = () => {
           throw new Error(`Failed to fetch data: ${res.statusText}`);
         }
         const fetchedData = await res.json();
+        console.log("Fetched Data:", fetchedData); // Debug API response in Vercel
         setData(fetchedData);
         setLoading(false);
       } catch (error) {
-        console.error(error);
+        console.error("Error fetching data:", error);
         setLoading(false);
       }
     };
@@ -108,12 +108,11 @@ const Home: React.FC = () => {
             className="bg-gray-100 shadow-xl rounded-xl overflow-hidden transition-transform hover:scale-105 duration-300 max-w-xs mx-auto flex flex-col border border-gray-200"
           >
             <div className="relative w-full h-72">
-              <Image
+              <img
                 src={item.image || "/placeholder.svg"}
                 alt={item.productname}
                 width={300}
                 height={300}
-                unoptimized
                 className="w-full h-full object-cover rounded-t-xl bg-gray-300"
               />
               <div className="absolute top-2 left-2 bg-[#B88E2F] text-white py-1 px-3 text-xs font-semibold rounded-full shadow-md">
