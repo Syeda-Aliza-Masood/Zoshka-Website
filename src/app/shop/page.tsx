@@ -116,7 +116,7 @@ const Home: React.FC = () => {
                 unoptimized
                 className="w-full h-full object-cover rounded-t-xl bg-gray-300"
               />
-              <div className="absolute top-2 left-2 bg-[#B88E2F] text-white py-1 px-3 text-xs font-semibold rounded-full shadow-md">
+              <div className="absolute top-2 left-2 bg-red-600 text-white py-1 px-3 text-xs font-semibold rounded-full shadow-md">
                 {item.discount} % OFF
               </div>
             </div>
